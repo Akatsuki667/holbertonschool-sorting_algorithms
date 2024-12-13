@@ -20,3 +20,17 @@ Write in the file 1-O, the big O notations of the time complexity of the Inserti
 - in the best case
 - in the average case
 - in the worst case
+
+### 2-selection_sort.c
+Write a function that sorts an array of integers in ascending order using the Selection sort algorithm.
+- You’re expected to print the array after each time you swap two elements (See example below)
+### 2-O
+Write in the file 2-O, the big O notations of the time complexity of the Selection sort algorithm, with 1 notation per line:
+- in the best case
+- in the average case
+- in the worst case
+
+## Contributors
+This project was produced as part of the Holberton School program by :
+- [Houmaidi Ibrahim](https://github.com/Braganov)
+- [Teyant Alexandre](https://github.com/Akatsuki667)
