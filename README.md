@@ -30,6 +30,17 @@ Write in the file 2-O, the big O notations of the time complexity of the Selecti
 - in the average case
 - in the worst case
 
+### 3-quick_sort.c
+Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+- You must implement the Lomuto partition scheme.
+- The pivot should always be the last element of the partition being sorted.
+- You’re expected to print the array after each time you swap two elements (See example below)
+### 3-O
+Write in the file 3-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
+- in the best case
+- in the average case
+- in the worst case
+
 ## Contributors
 This project was produced as part of the Holberton School program by :
 - [Houmaidi Ibrahim](https://github.com/Braganov)

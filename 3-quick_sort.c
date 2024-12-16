@@ -1,5 +1,18 @@
 #include "sort.h"
 /**
+ * swap - Swap deux entiers
+ * @a: Pointeur vers le premier entier
+ * @b: Pointeur vers le second entier
+ */
+void swap(int *a, int *b)
+{
+int temp;
+
+temp = *a;
+*a = *b;
+*b = temp;
+}
+/**
 * partition - Partitionne le tableau en utilisant le schéma Lomuto
 * @array: pointeur vers le tableau d'entiers
 * @low: index de départ de la partition
@@ -25,7 +38,6 @@ swap(&array[i + 1], &array[high]);
 print_array(array, size);
 return (i + 1);
 }
-
 /**
 * quick_sort_rec - Trie de manière récursive les sous-tableaux
 * @array: pointeur vers le tableau d'entiers
@@ -42,9 +54,8 @@ quick_sort_rec(array, low, pivot - 1, size);
 quick_sort_rec(array, pivot + 1, high, size);
 }
 }
-
 /**
-* quick_sort - Trie un tableau d'entiers par ordre croissant à l'aide du tri rapide
+* quick_sort - Trie tableau d'entiers ordre croissant à l'aide du tri rapide
 * @array: pointeur vers le tableau d'entiers
 * @size: nombre d'éléments dans le tableau
 */
